@@ -24,6 +24,6 @@
       tags: nginx
     - role: logrotate
       tags: logrotate
-    - role: certbot
-      when: nginx_https_enabled == true
-      tags: certbot
+    # - role: certbot
+    #   when: nginx_https_enabled == true
+    #   tags: certbot
